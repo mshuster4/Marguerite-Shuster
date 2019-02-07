@@ -77,9 +77,9 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     background-image: url("../images/option_3.jpg");
-    background-size: 100% 100%; 
-    background-position: center;  
-
+    background-size: cover; 
+    background-position-x: 100%;  
+    background-position-y: 46%
 }
   
 .jumbotron  h1 {
