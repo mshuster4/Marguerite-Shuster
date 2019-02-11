@@ -21,12 +21,23 @@ body {
     color: white; 
 }
 
+.nav-item {
+    color: white; 
+    border-right-style: solid;
+    border-right-color: white;
+    border-right-width: 1px;
+}
+
+.nav-item:last-child {
+    border-right: none; 
+}
+
 .nav-item:hover {
     text-decoration: none;
     color: #4b7397; 
-    background-color:rgb(255,255,255, 0.65);
+    background-color:rgb(255,255,255, 0.45);
 }
- 
+
 strong { font-weight: 600; }
  
 h1, h2 {
@@ -74,9 +85,13 @@ h2 {
 }
 
 .about-container {
-    padding: 15px; 
+    padding-top: 15px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
     min-height: 40vh;
     margin-bottom: 30px; 
+
 }
 
 .about-box-text {
@@ -116,18 +131,22 @@ h2 {
 
 .site-link {
     text-decoration: none;
+    color:  #888;
 }
 
 .site-link:hover{
     text-decoration: none;
+    color: #4b7397;
 }
 
 .repo-link {
     text-decoration: none;
+    color: #4b7397;
 }
 
 .repo-link:hover{
     text-decoration: none; 
+    color:  #888; 
 }
  
 .card:hover {
@@ -149,12 +168,18 @@ h2 {
 }
 
 #footer {
-    position: absolute;
+    position: fixed;
+    position: static; 
     bottom: 0;
     width: 100%;
     height: 10vh;
     color: white;
     background-color: rgb(75,115,151, .65);
 }
-
  
+@media only screen and (max-width: 575px) {
+    .contact-container {
+         padding-bottom: 40px; 
+         
+    }
+  }
