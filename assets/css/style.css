@@ -136,7 +136,7 @@ h2 {
 
 .site-link:hover{
     text-decoration: none;
-    color: #4b7397;
+    color:  #888;
 }
 
 .repo-link {
@@ -146,7 +146,7 @@ h2 {
 
 .repo-link:hover{
     text-decoration: none; 
-    color:  #888; 
+    color: #4b7397;
 }
  
 .card:hover {
@@ -180,6 +180,6 @@ h2 {
 @media only screen and (max-width: 575px) {
     .contact-container {
          padding-bottom: 40px; 
-         
+
     }
   }
