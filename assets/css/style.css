@@ -89,7 +89,6 @@ h2 {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 40px;
-    min-height: 40vh;
     margin-bottom: 30px; 
 
 }
@@ -108,8 +107,6 @@ h2 {
 .portfolio-background-color {
     background-color: rgb(110,111,115, .10);
     padding: 15px; 
-    min-height: 40vh;
-    margin-bottom: 30px;
 }
 
 .card {
@@ -158,8 +155,8 @@ h2 {
 }
  
 .contact-container {
-    padding: 15px;
-    min-height: 50vh;
+    padding-top: 40px;
+    min-height: 35vh; 
 }
 
 .contact-icons {
@@ -180,6 +177,7 @@ h2 {
 @media only screen and (max-width: 575px) {
     .contact-container {
          padding-bottom: 40px; 
+         padding-top: 40px;
 
     }
   }
