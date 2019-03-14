@@ -1,2 +1,2 @@
-# competitive_portfolio-
-Portfolio with updated designed/deployed links 
+# Competitive Portfolio
+Professional portfolio with updated information and links to each project.
